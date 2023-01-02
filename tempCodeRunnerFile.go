@@ -1,1 +1,1 @@
-	fmt.Println(string(bytesStructSlice))
+	fmt.Println()

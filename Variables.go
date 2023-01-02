@@ -4,9 +4,6 @@ import "fmt"
 
 func main() {
 
-	//passing a string to print
-	fmt.Println("Hello, World!")
-
 	//print a variable
 	//declared n initialised a variable
 	var city string = "Mumbai"

@@ -13,4 +13,5 @@ func main() {
 		stringOfOneChar, s_byte, s_byte)
 
 	fmt.Println(byte('.'), byte(','))
+
 }

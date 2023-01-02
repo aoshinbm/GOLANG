@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func test(myFunc func(int) int) { //takes function as parameter
-	//myFunc 	  func(int) 				int
-	//parameter   funtc(parameter type)     return type
-
+	//myFunc 	      func(int) 				int
+	//function_name   funtc(parameter type)     return type
+	//parametername
 	fmt.Println(myFunc(77))
 }
 
