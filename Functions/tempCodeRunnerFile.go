@@ -1,1 +1,1 @@
-int
+	fmt.Println(code)

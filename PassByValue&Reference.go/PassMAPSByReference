@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+//eventhough havent mentioned any pointer the value changes
+func modify(mapp map[string]int) {
+	mapp["K"] = 75
+}
+
+//this happened bcuz slice itself is an reference to an underlying array
+func main() {
+	code := make(map[string]int)
+	code["A"] = 65
+	code["F"] = 70
+	fmt.Println(code)
+	modify(code)
+	fmt.Println(code)
+}
